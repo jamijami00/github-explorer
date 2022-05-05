@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+    mode: 'development',        //Depois alterne para production quando encerrar o processo dev
     //entry: 'src/indes.jsx', Passagem por padrão normal do Linux, diferente no Windows
     //Por isso é melhor usar a convenção abaixo
     entry: path.resolve(__dirname, 'src', 'index.jsx'),
